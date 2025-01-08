@@ -1,0 +1,31 @@
+.review-card{
+    border: 2px solid #D9D9D9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+.reviewer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.reviewer  h3{
+   font-size: 16px;
+   margin-bottom: 0px;
+}
+.reviewer p{
+    margin-top: 0px;
+    font-size: 13px;
+}
+.review-body h4{
+   margin-bottom: 0px;
+   font-size: 22px;
+   color: #1E1E1E;
+}
+.review-body p{
+   font-size: 15px;
+}

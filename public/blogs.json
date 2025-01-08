@@ -1,0 +1,120 @@
+[
+    {
+      "blogId": "1",
+      "title": "Mastering React Hooks Guide",
+      "image": "https://i.postimg.cc/wTfPjDXV/Screenshot-2024-12-24-at-6-56-09-PM-1.png",
+      "category": "Design",
+      "publicationDate": "2025-01-05",
+      "shortExcerpt": "Learn how to use React Hooks effectively to manage state .Learn how to use React Hooks effectively to manage state and lifecycle methods in your functional components.Learn how to use React Hooks effectively to manage state and lifecycle methods in your functional components.",
+      "blogView": 10,
+      "reviews": [
+        {  
+          
+          "rating": 4.5,
+          "reviewerName": "Alice Johnson",
+          "reviewDate": "2025-01-06",
+          "reviewTitle": "Very Informative",
+          "reviewDescription": "Great for beginners and intermediate developers.",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.0,
+          "reviewerName": "Mark Lewis",
+          "reviewDate": "2025-01-07",
+          "reviewTitle": "Helpful for State Management",
+          "reviewDescription": "I learned new ways to manage state using Hooks.",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.0,
+          "reviewerName": "Mark Lewis",
+          "reviewDate": "2025-01-07",
+          "reviewTitle": "Helpful for State Management",
+          "reviewDescription": "I learned new ways to manage state using Hooks. ",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        }
+      ]
+    },
+    {
+      "blogId": "2",
+      "title": "10 Best Practices for Writing Clean Code.",
+      "image": "https://i.postimg.cc/PfFzLy7P/blog-img-2.png",
+      "category": "UI/UX",
+      "publicationDate": "2024-12-20",
+      "shortExcerpt": "Explore the top 10 best practices to write clean, maintainable, and efficient JavaScript code for modern web applications.",
+      "blogView": 22,
+      "reviews": [
+        {
+          "rating": 5.0,
+          "reviewerName": "Sophie Turner",
+          "reviewDate": "2024-12-22",
+          "reviewTitle": "Highly Recommended",
+          "reviewDescription": "This blog covers essential JavaScript tips .",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.8,
+          "reviewerName": "John Smith",
+          "reviewDate": "2024-12-24",
+          "reviewTitle": "Very Useful",
+          "reviewDescription": "The best practices mentioned are practical .",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        }
+      ]
+    },
+    {
+      "blogId": "3",
+      "title": "Understanding REST APIs",
+      "image": "https://i.postimg.cc/Hsqwzxdm/blog-img-3.png",
+      "category": "Design",
+      "publicationDate": "2024-11-15",
+      "shortExcerpt": "This beginner-friendly guide explains what REST APIs.",
+      "blogView": 43,
+      "reviews": [
+        {
+          "rating": 4.0,
+          "reviewerName": "Emily Brown",
+          "reviewDate": "2024-11-16",
+          "reviewTitle": "Good Introduction",
+          "reviewDescription": "A great introduction to REST APIs. ",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.2,
+          "reviewerName": "Michael Adams",
+          "reviewDate": "2024-11-17",
+          "reviewTitle": "Well Explained",
+          "reviewDescription": "The blog covered the basics very well",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        }
+      ]
+    },
+    {
+      "blogId": "4",
+      "title": "Proper Knowledge for Javascript",
+      "image": "https://i.postimg.cc/rw5SPkwr/blog-img-4.png",
+      "category": "Javascript",
+      "publicationDate": "2024-10-30",
+      "shortExcerpt": "Learn the key differences between CSS Grid and Flexbox, and discover when to use each layout system in your projects.",
+      "blogView": 13,
+      "reviews": [
+        {
+          "rating": 5.0,
+          "reviewerName": "Sarah Connor",
+          "reviewDate": "2024-11-01",
+          "reviewTitle": "Clear Comparison",
+          "reviewDescription": "The blog provides a clear comparison between CSS Grid and Flexbox, making it easy to decide when to use each.",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.9,
+          "reviewerName": "James White",
+          "reviewDate": "2024-11-02",
+          "reviewTitle": "Very Useful",
+          "reviewDescription": "This blog helped me understand the differences and when to use Grid vs. Flexbox. Great examples!",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        }
+      ]
+    }
+  ]
+  

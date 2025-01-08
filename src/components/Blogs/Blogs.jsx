@@ -1,22 +1,34 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
+import './Blogs.css'
+import BlogCard from "../BlogCard/BlogCard";
 
 
 const Blogs = () => {
-    //const [blogs, setBlogs] = useState([]);
+    const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
         const fetchData = async() => {
-            fetch('https://jsonplaceholder.typicode.com/posts')
+            fetch('./blogs.json')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
+                setBlogs(data);
             })
         }
         fetchData();
     }, [])
   return (
-    <div>
-
+    <div className="blogs">
+        <div>
+            <h2>PlaceHolder Posts</h2>
+        </div>
+        <div className="blogs-content">
+           {
+             blogs.map(blog => (
+                <BlogCard key={blog.blogId} blog={blog}></BlogCard>
+             ))
+           }
+        </div>
     </div>
   )
 }
