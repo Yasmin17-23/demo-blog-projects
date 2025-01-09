@@ -5,6 +5,7 @@
 .blog-details-first{
     display: flex;
     justify-content: space-between;
+   
      
 }
 .blog-details-first img{
@@ -48,4 +49,52 @@
 }
 .blog-review{
     margin: 30px 0px;
+}
+.newsletter{
+    text-align: center;
+    margin: 80px 0px;
+}
+.newsletter h4{
+    margin-bottom: 0px;
+    font-size: 26px;
+    color: #1E1E1E;
+}
+.newsletter P{
+    margin-top: 0px;
+    color: #757575;
+    font-size: 14px;
+}
+.email-input{
+    width: 200px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-right: 8px;
+    
+}
+.news-btn{
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-details-first{
+        flex-wrap: wrap;
+        flex-direction: column;  
+    }
+    .blog-details-first img{
+        width: 100%;
+    }
+    .blog-details-content h2{
+        font-size: 25px;
+    }
+    .blog-details-review{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .blog-item p{    
+        font-size: 15px;
+    }
 }

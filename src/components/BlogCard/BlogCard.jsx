@@ -1,15 +1,16 @@
 import PropTypes from "prop-types";
 import './BlogCard.css'
 import { FiCalendar } from "react-icons/fi";
-import { Link } from "react-router";
+import { Link, useOutletContext } from "react-router";
 import { FaEye } from "react-icons/fa";
 
 
 const BlogCard = ({ blog }) => {
+   const { handleBellCounter } = useOutletContext();
    const { blogId, image, title, category, shortExcerpt, publicationDate, blogView } = blog;
+  
    return (
-      <div>
-
+      <div onClick={handleBellCounter}>       
          <div className="card">
             <div className="card-img">
                <img src={image} alt="" />
@@ -38,12 +39,14 @@ const BlogCard = ({ blog }) => {
                </p>
             </div>
          </div>
+       
       </div>
    )
 }
 
 BlogCard.propTypes = {
    blog: PropTypes.object,
+  
 }
 
 export default BlogCard

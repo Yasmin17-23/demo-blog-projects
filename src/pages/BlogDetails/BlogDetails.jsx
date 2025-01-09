@@ -5,7 +5,6 @@ import { FiCalendar } from "react-icons/fi";
 import Reviews from "../../components/Reviews/Reviews";
 
 
-
 const BlogDetails = () => {
     const blogs = useLoaderData();
     console.log(blogs);
@@ -52,7 +51,14 @@ const BlogDetails = () => {
                     }
                 </div>
             </div>
-
+            <div className="newsletter">
+                <h4>Follow the latest trends</h4>
+                <p>With our daily newsletter</p>
+                <div>
+                    <input type="email" name="email" id="" placeholder="you@example.com" className="email-input"/>
+                   <input type="button" value="Submit" className="news-btn"/>
+                </div>
+            </div>
         </div>
     )
 }

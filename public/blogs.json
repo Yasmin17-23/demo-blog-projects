@@ -68,7 +68,7 @@
       "image": "https://i.postimg.cc/Hsqwzxdm/blog-img-3.png",
       "category": "Design",
       "publicationDate": "2024-11-15",
-      "shortExcerpt": "This beginner-friendly guide explains what REST APIs.",
+      "shortExcerpt": "This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.This beginner-friendly guide explains what REST APIs.",
       "blogView": 43,
       "reviews": [
         {
@@ -76,7 +76,7 @@
           "reviewerName": "Emily Brown",
           "reviewDate": "2024-11-16",
           "reviewTitle": "Good Introduction",
-          "reviewDescription": "A great introduction to REST APIs. ",
+          "reviewDescription": "A great introduction to REST APIs.",
           "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
         },
         {
@@ -85,6 +85,14 @@
           "reviewDate": "2024-11-17",
           "reviewTitle": "Well Explained",
           "reviewDescription": "The blog covered the basics very well",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.9,
+          "reviewerName": "James White",
+          "reviewDate": "2024-11-02",
+          "reviewTitle": "Very Useful",
+          "reviewDescription": "This blog helped me understand the differences and when to use Grid vs. Flexbox. Great examples!",
           "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
         }
       ]
@@ -113,8 +121,17 @@
           "reviewTitle": "Very Useful",
           "reviewDescription": "This blog helped me understand the differences and when to use Grid vs. Flexbox. Great examples!",
           "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
+        },
+        {
+          "rating": 4.9,
+          "reviewerName": "James White",
+          "reviewDate": "2024-11-02",
+          "reviewTitle": "Very Useful",
+          "reviewDescription": "This blog helped me understand the differences and when to use Grid vs. Flexbox. Great examples!",
+          "reviewerImg": "https://i.postimg.cc/VNpNGhpp/reviewer-img.png"
         }
       ]
     }
+    
   ]
   
